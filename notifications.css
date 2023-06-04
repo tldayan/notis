@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(229, 229, 229);
+}
+
+.container {
+  /* border: 2px solid black; */
+  border-radius: 15px;
+  width: min(90%, 700px);
+  margin: 50px auto;
+  background-color: white;
+  padding: 30px;
+}
+
+.top_container {
+  /* border: 2px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.notifications_title_container {
+  /* border: 2px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: clamp(1rem, 5vw, 1.2rem);
+  font-weight: bold;
+  gap: 10px;
+}
+
+.notification_count {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: hsl(219, 85%, 26%);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mark_all_as_read_container {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.notifications_container {
+  /* border: 2px solid black; */
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.notification_boxes {
+  /* border: 2px solid black; */
+  background-color: hsl(210, 60%, 98%);
+  display: flex;
+  padding: 10px;
+  gap: 10px;
+}
+
+.avatar_image {
+  width: 40px;
+}
+
+.chess_image {
+  width: 40px;
+}
+
+.chess_image_container {
+  margin-left: auto;
+}
+
+.notification p {
+  font-weight: bolder;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.grey {
+  font-weight: normal;
+  opacity: 0.5;
+}
+
+.first_tournament, .end_game {
+  font-weight: bold;
+  opacity: 0.7;
+}
+
+.message_container {
+  margin: 7px auto;
+  border: 1px solid black;
+  padding: 10px;
+  opacity: 0.5;
+  border-radius: 5px;
+  font-weight: lighter;
+}
+
+.message_container:hover {
+  background-color: rgb(109, 199, 255);
+}
+
+.noti_age {
+  opacity: 0.5;
+  font-weight: lighter !important;
+}
+
+.red_dot {
+  display: inline-block;
+  margin: 0px 6px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+noti_1 {
+  display: block;
+}
+
+noti_2 {
+  display: block;
+}
+
+noti_3 {
+  display: block;
+}
+
+.attribution {
+  text-align: center;
+  font-size: 1.1rem;
+  margin: 50px 0 10px 0;
+}
+
+.attribution > a {
+  text-decoration: none;
+}
+
+.frontendmentor {
+  color: rgb(0, 128, 64);
+}
+
+.author {
+  color: rgb(0, 128, 64);
+}/*# sourceMappingURL=notifications.css.map */
